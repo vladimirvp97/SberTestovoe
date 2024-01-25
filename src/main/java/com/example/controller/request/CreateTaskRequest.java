@@ -34,7 +34,7 @@ public class CreateTaskRequest {
     @Enumerated(EnumType.STRING)
     private Priority priority;
 
-    @NotBlank(message = "Name of executor cannot be null")
+    @NotBlank(message = "Name of executor cannot be blank")
     @Schema(description = "Имя исполнителя")
     private String executorName;
 
