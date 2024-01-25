@@ -2,30 +2,16 @@
 
 Исполнитель - Поляков В.В. (Telegram - @starsdogroba, WA - +79997153954)
 
-**1) Необходимо сделать git clone из репозитория по ссылке - https://github.com/vladimirvp97/TaskManager.git** 
+**1) Необходимо сделать git clone из репозитория по ссылке - https://github.com/vladimirvp97/SberTestovoe.git** 
 
 **2) Открыть консоль и перейти в раздел с проектом**
 
 **3) Выполнить команду "docker-compose up -d".** Тем самым мы поднимем 
 базу данных на локальном компьютере с корректной ее настройкой. 
 
-При инициализации
-базы данных будет выполнен sql-скрипт расположенный в root данного проекта. Он 
-создаст 7 пользователей и 8 задач для того что бы можно было сразу приступить к
-тестированию end-point'ов. Вот как выглядят тестовые объекты User(используйте их для авторизации и поиска задач):
-* 1, xli@gmail.com, Qk5ZiNdF@P
-* 2, colinhall@yahoo.com, (gDW^Ei29f
-* 3, chentodd@simmons.biz, gb2^UP8y_j
-* 4, andresmoody@jenkins.info, Tzd0cIuf%A
-* 5, john23@hotmail.com, %2xBTn8mXa
-* 6, ksummers@brown-park.com, 7l1O)mj0+#
-* 7, qenglish@joseph-anderson.com, 1KkVTMci&0
-
 **4) Запустить приложение(например из IDEA)**
 
 **5) Swagger UI для удобного просмотра и использования end-point'ов будет ждать
-вас по URI - "/swagger-ui/index.html"**
+вас по URI - "http://localhost:8080/swagger-ui/index.html"**
 
-**P.S. : Для получения доступа к end-point'ам сначала нужно пройти авторизацию
-по URI - "auth/login" с параметрами login и password одного из перечисленных выше пользователей. А затем 
-полученный в ответе токен прикреплять к каждому запросу как параметр Bearer token**
+
